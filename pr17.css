@@ -1,0 +1,514 @@
+header {
+    background-color: #35736E;
+    height: 629.07px;
+    }
+    
+    .logo {
+    font-family: "Stick No Bills", serif;
+    font-weight: 800;
+    font-size: 51.33px;
+    color: #FFD748;
+    line-height: 76.75px;
+
+    }
+    
+    .navbar {
+    align-items: center;
+    }
+    
+    .nav-links a {
+    margin: 32px;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 18.67px;
+    line-height: 28px;
+    text-decoration: underline 4.67px #FFD748;
+    }
+    
+    .nav-links :nth-child(n+2) {
+    text-decoration: none;
+    }
+    
+    .hero h1 {
+    position: absolute;
+    left: 92.4px;
+    top: 221.2px;
+    width: 505.87px;
+    font-size: 51.33px;
+    font-family: DM Serif Text;
+    font-weight: 400;
+    line-height: 70.38px;
+    color: white;
+    text-shadow: 0px 3.73px 3.73px #00000040;
+    }
+    
+    .hero-img :nth-child(2) {
+    position: absolute;
+    top: 126.93px;
+    left: 561.87px;
+    }
+    
+    .hero-img :nth-child(1) {
+    position: absolute;
+    top: 197.87px;
+    left: 1088.27px;
+    }
+    
+    .hero-buttons {
+    position: absolute;
+    top: 429.33px;
+    left: 104.53px;
+    }
+    
+    button {
+    width: 149.33px;
+    height: 46.67px;
+    border: none;
+    border-radius: 28px;
+    font-family: "Poppins", serif;
+    font-size: 18.67px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    }
+    
+    .hero-buttons :nth-child(1) {
+    margin-right: 22.4px;
+    background-color: #FFD748;
+    }
+    
+    .hero-buttons :nth-child(2) {
+    margin-right: 22.4px;
+    background-color: transparent;
+    border: 0.93px solid #FFFFFF;
+    }
+   
+
+
+
+
+.container {
+    height: 600px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 60px;
+    /* width: 100%; */
+    flex-direction: row;
+    align-content: center;
+    /* align-items: flex-start; */
+}
+
+.section1 {
+    position: relative;
+}
+
+.section1 h3 {
+    line-height: 1.4;
+    font-family: 'Poppins';
+    position: absolute;
+    left: 6.6%;
+    right: 79.13%;
+    top: 1.72%;
+    bottom: 95.23%;
+    font-weight: 600;
+    font-size: 31.7333px;
+    line-height: 38px;
+
+    color: #2F2F2F;
+
+
+}
+
+.section1 p {
+    color: #6A6A6A;
+    width: 212.8px;
+    height: 94.84px;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-size: 13.0667px;
+    line-height: 22px;
+
+
+
+}
+
+.section1 button {
+
+    box-sizing: border-box;
+    width: 160px;
+    height: 60px;
+
+    position: absolute;
+    top: 100px;
+    left: -10px;
+
+    background: #35736E;
+    border: 0.933333px solid #FFFFFF;
+    border-radius: 28px;
+    color: #FFFFFF;
+
+    font-size: 18.67px;
+    font-weight: 400;
+
+}
+
+
+
+.section2 {
+    position: relative;
+    background-color: #35736E1A;
+    width: 267.27px;
+    height: 269.6px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+
+    left: 28.73%;
+    /* right: 51.53%; */
+    /* top: 1.9%; */
+    /* bottom: 91.98%; */
+
+    background: rgba(53, 115, 110, 0.1);
+    box-shadow: 2.8px 4.66667px 3.73333px rgba(0, 0, 0, 0.25);
+    border-radius: 18.6667px;
+}
+
+.section2::after {
+    content: '';
+    background-color: #2F2F2F;
+    ;
+    width: 32.67px;
+    height: 32.67px;
+    position: absolute;
+    bottom: -20px;
+    left: 125px;
+    border-radius: 50%;
+
+}
+
+.product1 {
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    font-size: 14.93px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+
+
+}
+
+.price1 {
+    position: absolute;
+    bottom: 20px;
+    left: 115px;
+
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+.section2 img {
+
+    position: absolute;
+    top: 16.69px;
+    top: -48px;
+    left: 45px;
+    width: 176.4px;
+    height: 229.21px;
+
+
+}
+
+.section3 {
+    position: relative;
+    background-color: #35736E1A;
+    width: 267.27px;
+    height: 269.6px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+
+    left: 28.73%;
+    /* right: 51.53%; */
+    /* top: 1.9%; */
+    /* bottom: 91.98%; */
+
+    background: rgba(53, 115, 110, 0.1);
+    box-shadow: 2.8px 4.66667px 3.73333px rgba(0, 0, 0, 0.25);
+    border-radius: 18.6667px;
+}
+
+.section3 img {
+
+    position: absolute;
+    top: 16.69px;
+    top: -48px;
+    left: 70px;
+    width: 176.4px;
+    height: 229.21px;
+
+
+}
+
+
+.product2 {
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    font-size: 14.93px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+
+
+}
+
+.price2 {
+    position: absolute;
+    bottom: 20px;
+    left: 125px;
+
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+
+.section4 {
+    position: relative;
+    background-color: #35736E1A;
+    width: 267.27px;
+    height: 269.6px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; */
+
+    left: 28.73%;
+    /* right: 51.53%; */
+    /* top: 1.9%; */
+    /* bottom: 91.98%; */
+
+    background: rgba(53, 115, 110, 0.1);
+    box-shadow: 2.8px 4.66667px 3.73333px rgba(0, 0, 0, 0.25);
+    border-radius: 18.6667px;
+
+}
+
+
+
+.section4 img {
+
+    position: absolute;
+    /* top: 16.69px; */
+    top: -48px;
+    left: 58px;
+    width: 176.4px;
+    height: 229.21px;
+
+
+}
+
+
+
+.product3 {
+    position: absolute;
+    left: 85px;
+    bottom: 50px;
+    font-size: 14.93px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+
+
+}
+
+.price3 {
+    position: absolute;
+    bottom: 20px;
+    left: 111px;
+
+    font-size: 16.8px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+.why{
+   
+    display: flex;
+   
+}
+.secsofa{
+    
+    width: 480.5px;
+    height: 552.47px;
+    top: 605.05px;
+    left: 777.47px;
+    gap: 0px;
+    border-radius: 9.33px 0px 0px 0px;
+    opacity: 0px;
+    
+position: relative;
+left: 55.53%;
+right: 10.15%;
+top: 13.75%;
+bottom: 73.69%;
+
+background: url(Dotted.png);
+border-radius: 9.33333px;
+
+}
+.dotsofa{
+    position: relative;
+    width: 242.67px;
+height: 154.56px;
+top: 563.8px;
+left: 700px;
+padding: 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+.group4img{
+    display: flex;
+}
+
+.container3 {
+    position: relative;
+}
+
+
+.images {
+    position: absolute;
+}
+
+.dot-img {
+    position: absolute;
+    top: 225px;
+    left: 82px;
+}
+
+.big-img {
+    position: absolute;
+    width: 393.87px;
+    height: 451.39px;
+    top: 257.94px;
+    left: 178.13px;
+}
+
+.medium-img {
+    position: absolute;
+    width: 271.6px;
+    height: 306.49px;
+    top: 445px;
+    left: 547.87px;
+    border-radius: 10px;
+}
+
+.small-img {
+    position: absolute;
+    width: 174.53px;
+    height: 164.22px;
+    top: 260px;
+    left: 594px;
+    border-radius: 10px;
+
+}
+
+
+
+.content-side {
+    position: absolute;
+    top: 325px;
+    right: 125px;
+    width: 30%;
+}
+
+.content-side h4 {
+    font-family: 'Poppins';
+    font-size: 31.73px;
+    font-weight: 600;
+    line-height: 38.27px;
+    text-align: left;
+    margin-bottom: 20px;
+
+
+}
+
+.content-side p {
+    font-family: 'Inter';
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6A6A6A;
+    width: 90%;
+
+
+}
+.lists {
+    list-style-type: circle;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.lists li {
+    margin: 10px 0px;
+    font-family: Inter;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 17.73px;
+    text-align: left;
+    color: #6A6A6A;
+
+
+}
+
+
+.c-s-btn {
+    position: absolute;
+    width: 149.33px;
+    height: 43.91px;
+    bottom: -90px;
+    left: 0px;
+    background-color: #35736E;
+    color: #FFFFFF;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    font-size: 18.67px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
