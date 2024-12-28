@@ -501,14 +501,472 @@ opacity: 0px;
 
 }
 
+.container4 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 933px;
+    left: 180px;
+    width: 1400px;
+    margin-left: 80px;
+
+
+}
+
+.img1,
+.img2,
+.img3 {
+    position: relative;
+    left: -95px;
+    top: -15px;
+}
+
+.card1 .img1,
+.card2 .img2,
+.card3 .img3 {
+    width: 20%;
+}
+
+
+.card3 .img3 {
+    width: 23%;
+}
+
+.img3,
+.card3 .img31 {
+    position: relative;
+    left: -150px;
+}
+
+
+.img3 {
+    margin-left: -100px;
+}
 
 
 
 
+.card11 {
+
+    position: absolute;
+    width: 12%;
+    top: 11px;
+    left: 115px;
+}
+
+.card11 a,
+.card21 a,
+.card31 a {
+    text-decoration: none;
+}
+
+.card11 p,
+.card21 p,
+.card31 p {
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 20.53px;
+    color: #6A6A6A;
+    width: 80%;
+}
+
+.card21 {
+    position: absolute;
+    width: 12%;
+    top: 7px;
+    left: 643px;
+}
+
+.card31 {
+    position: absolute;
+    width: 15%;
+    top: 7px;
+}
+.container5 {
+    position: relative;
+
+
+}
+
+.container5 h4 {
+    position: absolute;
+    top: 1095px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 31.73px;
+    font-weight: 600;
+    line-height: 38.27px;
+    text-align: center;
+
+
+}
+
+
+.container5 p {
+    font-family: 'Inter';
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 29.87px;
+    text-align: left;
+    /* position: absolute?; */
+    top: 1170px;
+    /* left: 423px; */
+    width: 603px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+}
+
+.container5 p::after {
+    content: '>';
+    font-weight: 900;
+    position: absolute;
+    top: 21px;
+    right: -130px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFD748;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container5 p::before {
+    content: '<';
+    position: absolute;
+    font-weight: bold;
+    top: 21px;
+    left: -130px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container6 {
+    position: relative;
+    margin-top: -10%;
+
+}
+
+.person {
+    position: absolute;
+    width: 80.27px;
+    height: 80.27px;
+    top: 1550px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+
+
+}
+
+.container6 h4 {
+    position: absolute;
+    top: 1634px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container6 p {
+    position: absolute;
+    top: 1662px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.group-img {
+    position: absolute;
+    top: 1694px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.container7 {
+    position: relative;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+
+.head-7 {
+    display: flex;
+    gap: 800px;
+    position: absolute;
+    top: 1800px;
+    left: 190px;
+
+}
+
+
+
+.images-7 .f-img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 1955px;
+    left: 185px;
+
+
+}
+
+.images-7 .s-img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 1955px;
+    left: 545px;
+
+
+}
+
+
+.images-7 .t-img {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 1955px;
+    left: 900px;
+
+
+}
+
+
+.images-7 .h6-1 {
+    position: absolute;
+    top: 2180px;
+    left: 185px;
+
+}
+
+.images-7 .p6-1 {
+    position: absolute;
+    top: 2200px;
+    left: 185px;
+    font-size: 13.07px;
+
+}
+
+.images-7 .f-img p span {
+    font-weight: 600;
+}
+
+
+
+.images-7 .h6-2 {
+    position: absolute;
+    top: 2180px;
+    left: 545px;
+
+}
+
+.images-7 .p6-2 {
+    position: absolute;
+    top: 2200px;
+    left: 545px;
+    font-size: 13.07px;
+
+}
 
 
 
 
+.images-7 .h6-3 {
+    position: absolute;
+    top: 2180px;
+    left: 900px;
 
+}
+
+.images-7 .p6-3 {
+    position: absolute;
+    top: 2200px;
+    left: 900px;
+    font-size: 13.07px;
+
+}
+
+footer {
+    position: relative;
+    padding-left: 150px;
+    margin-top: 200px;
+    background: #EFF2F1;
+}
+
+.foot-head {
+    position: absolute;
+    top: 2400px;
+    
+
+}
+
+
+
+.massage {
+    display: flex;
+    gap: 15px;
+}
+
+
+.foot-form input {
+
+    padding: 12px 17px;
+    margin-top: 20px;
+    border-radius: 9.33px;
+    border: 0.93px solid #C4C4C4;
+
+}
+
+.foot-form input:first-child {
+    margin-right: 15px;
+}
+
+.foot-form img {
+    background-color: #35736E;
+    position: absolute;
+    padding: 7px;
+    top: 40px;
+    left: 102%;
+    border-radius: 9.33px;
+
+}
+
+.foot-sofa {
+    position: absolute;
+    top: 2150px;
+    right: 30px;
+    width: 427.47px;
+    height: 369.82px;
+    margin-right: 100px;
+
+
+
+}
+
+
+.body-foot {
+    position: relative;
+}
+
+.body-foot img {
+    position: absolute;
+    top: 2550px;
+
+}
+
+.container-body-foot {
+    position: absolute;
+    top: 2600px;
+    display: flex;
+
+
+}
+
+.container-body-foot p {
+    width: 30%;
+    font-family: 'Inter';
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6A6A6A;
+}
+
+.container-body-foot ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 50px;
+    margin-left: 50px;
+}
+
+.container-body-foot ul li {
+    color: #6A6A6A;
+    font-family: 'Inter';
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 26.13px;
+    text-align: left;
+}
+
+.social-foot {
+    position: absolute;
+    top: 2700px;
+
+}
+
+.social-foot img:not(:last-child) {
+    margin-left: 20px;
+    background: #D9D9D9;
+    padding: 14px;
+    border-radius: 50%;
+
+}
+
+.linked-in-foot {
+    display: inline-block;
+    background-color: #D9D9D9;
+    margin-left: 20px;
+    background: #D9D9D9;
+    padding: 15px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+}
+
+.last-foot {
+    position: relative;
+}
+
+.last-foot .terms {
+    position: absolute;
+    top: 2900px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    margin-left: -20%;
+
+}
+
+.last-foot .terms p,
+.last-foot .copy-rights {
+    font-family: 'Inter';
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: right;
+    color: #6A6A6A;
+
+
+}
+
+.last-foot .copy-rights {
+    position: absolute;
+    top: 3100px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
 
 
